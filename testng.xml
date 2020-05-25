@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://newtours.demoaut.com/"/>
+  
+  <test thread-count="5" name="Test">
+  
+  
+<!--  Setup  -->
+  <parameter name="username" value="pradeephnk@gmail.com"/>
+  <parameter name="password" value="Hansika2010"/>
+  
+  
+  <!--  Testcase1  -->
+  
+   <!--  Testcase1  -->
+   
+    <!--  Testcase1  -->
+  
+  
+  
+   <classes>
+      <class name="com.sundayspecial.testcases.Setup"/>
+      <class name="com.sundayspecial.testcases.Testcase1"/>
+      <class name="com.sundayspecial.testcases.Testcase2"/>
+      <class name="com.sundayspecial.testcases.Testcase3"/>
+      <class name="com.sundayspecial.testcases.Testcase4"/>
+      <class name="com.sundayspecial.testcases.Testcase5"/>
+      <class name="com.sundayspecial.testcases.Testcase5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
